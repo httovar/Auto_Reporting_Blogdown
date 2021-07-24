@@ -4,7 +4,7 @@ subtitle: Based on Data Scraped from `www.offiziellecharts.de`
 date: 2021-07-22
 author: Henning Tovar
 categories: ["R", "Report","Music"]
-tags: ["Dynamic Markdown",  "Automated Report"]
+tags: ["Dynamic RMarkdown",  "Automated Report"]
 ---
 ```{r setup, include=FALSE, message=FALSE}
 library(ggplot2)
