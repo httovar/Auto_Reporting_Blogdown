@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Automated Reporting and Data Analysis</title>
+    <link>https://example.com/tags/</link>
+    <description>Recent content in Tags on Automated Reporting and Data Analysis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automated Report</title>
+      <link>https://example.com/tags/automated-report/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/automated-report/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Markdown</title>
+      <link>https://example.com/tags/dynamic-markdown/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/dynamic-markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic RMarkdown</title>
+      <link>https://example.com/tags/dynamic-rmarkdown/</link>
+      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/dynamic-rmarkdown/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
