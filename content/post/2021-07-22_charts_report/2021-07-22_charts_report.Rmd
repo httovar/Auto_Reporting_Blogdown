@@ -1,17 +1,17 @@
 ---
-title: Charts Report for Week of  2021-07-24
+title: Charts Report for Week of  2021-07-22
 subtitle: Based on Data Scraped from `www.offiziellecharts.de`
-date: 2021-07-24
+date: 2021-07-22
 author: Henning Tovar
 categories: ["R", "Report","Music"]
-tags: ["Dynamic RMarkdown",  "Automated Report"]
+tags: ["Dynamic Markdown",  "Automated Report"]
 ---
 ```{r setup, include=FALSE, message=FALSE}
 library(ggplot2)
 library(gridExtra)
 library(readr)
 library(dplyr)
-chart_scrap <- read_csv('2021-07-24_charts_report.csv')
+chart_scrap <- read_csv('2021-07-22_charts_report.csv')
 ```
 This is a standardized report that analyses weekly developments in the [Top 100 German Single charts](https://www.offiziellecharts.de/charts). The data is automatically scraped in weekly intervals and the report is subsequently generated. The following figures and tables show some basic development in the charts. As the report is automatically generated, the content is standardized and each week's report comes in the same layout. The Single charts rank which single has performed best during the previous week (starting and ending on Friday). Performance is measured by the sum of sales, downloads, radio plays, and streaming requests. For more information on this see the following [website](https://www.offiziellecharts.de/info/faq). As this is a ranked evaluation, a smaller rank (i.e. closer to 1) indicates better performance than a larger rank.
 
