@@ -1,1 +1,1 @@
-# auto_reporting_blogdown
+Example site modified from https://github.com/gohugoio/hugoBasicExample
