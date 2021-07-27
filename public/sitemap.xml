@@ -14,7 +14,7 @@
     <loc>https://example.com/p/charts-report-for-week-of-2021-07-22/</loc>
     <lastmod>2021-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/dynamic-markdown/</loc>
+    <loc>https://example.com/tags/dynamic-rmarkdown/</loc>
     <lastmod>2021-07-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/music/</loc>
@@ -33,9 +33,6 @@
     <lastmod>2021-07-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/p/charts-report-for-week-of-2021-07-15/</loc>
-    <lastmod>2021-07-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/dynamic-rmarkdown/</loc>
     <lastmod>2021-07-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/p/charts-report-for-week-of-2021-07-08/</loc>

@@ -17,18 +17,9 @@
     </item>
     
     <item>
-      <title>Dynamic Markdown</title>
-      <link>https://example.com/tags/dynamic-markdown/</link>
-      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/tags/dynamic-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Dynamic RMarkdown</title>
       <link>https://example.com/tags/dynamic-rmarkdown/</link>
-      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/tags/dynamic-rmarkdown/</guid>
       <description></description>
