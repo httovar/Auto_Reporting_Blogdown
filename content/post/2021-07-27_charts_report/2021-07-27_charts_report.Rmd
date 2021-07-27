@@ -57,6 +57,7 @@ last_v_peak <- ggplot(data = chart_scrap, aes(x=last_week_fill, y=peak_in_charts
                                     theme_bw()
 grid.arrange(current_v_last,last_v_peak, weeks_v_peak,week_v_current, nrow=2)
 ``` 
+
 The bar plots below show the number of songs a respective label or artists is able to place in charts simultaneously. The following tables then drill down into this and show the exact artists and labels with more than one song in the charts. Unsurprisingly, very few artists are able to place more than one song in the charts at the same time. Notably, collaborative songs are not double counted for each collaborating artist but rather the collaboration is taken as a figurative artist.
 ```{r Tables and Bar Plots, echo=FALSE}
 chart_scrap%>%
