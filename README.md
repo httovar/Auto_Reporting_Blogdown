@@ -17,7 +17,7 @@ In practice, the `blogdown` package requires a special folder structure that wil
 
 When all these steps are completed, the blog is a fully live website. When creating new posts, use the `blogdown::new_post()` command, fill the document with content and then commit and push it to the remote repository. This will then be communicated to netlify and in turn lead to changes on the website. There are a few things to keep in mind when creating a new website with `blogdown`. When picking a `hugo` theme it is often advisable to pick a simpler theme rather than a complicated one. The more complicated the resulting website is, the more complicated the files are that organize the website. Little tweaks to the website can often return in unexpected changes. For experienced users that are familiar with web development and the `yaml` and `toml` markdown language, this might not be a substantial problem. For new users, however, choosing a complicated, fancy theme can result in substantial frustrations. 
 
-Furhter, in my personal experience, it is a easier to mix up the process detailed above. When creating a new site, follow these steps:
+Further, in my personal experience, it is a easier to mix up the process detailed above. When creating a new site, follow these steps:
 
 - Create a new remote git repository (e.g. on GitHub/GitLab). Save the URL.
 - Create a new Project in `RStudio`. Choose to create the project from Version Control and then specify the remote repository that was just created.
