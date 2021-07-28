@@ -21,7 +21,7 @@ Furhter, in my personal experience, it is a easier to mix up the process detaile
 
 - Create a new remote git repository (e.g. on GitHub/GitLab). Save the URL.
 - Create a new Project in `RStudio`. Choose to create the project from Version Control and then specify the remote repository that was just created.
-- Add two entries to the .gitignore file: The name and extention of the RPorject (this does not really provide any value on your repo), and `public`. The public folder contains all the HTML files that are used when hosting the website. However, netlify will create this itself and thus, the public folder does not provide any value on your repo.
+- Add two entries to the .gitignore file: The name and extension of the `RProject` (this does not really provide any value on your repo), and `public`. The public folder contains all the HTML files that are used when hosting the website. However, netlify will create this itself and thus, the public folder does not provide any value on your repo.
 - Download the theme and create the file structure as detailed above.
 - Stage, Commit, and Push the files to your remote repository. I find it advisable to use git commands in the `RStudio` Terminal rather than the manual Git Pane (also in `RStudio`). When staging a lot of files, the git pane can crash easily. The following commands will push all changes to the remote repository from the Terminal Command Line
   - `git add -A`: THis will stage all changed files
@@ -30,7 +30,9 @@ Furhter, in my personal experience, it is a easier to mix up the process detaile
 - If desired, use `blogdown::new_post` to create new blog posts now.
 - Connect to netlify by connecting remote git repo and netlify.
 
-## Automating Report Creation with Dynamic `RMarkdown`` Writing
+## Automating Report Creation with Dynamic `RMarkdown` Writing
+
+
 
 
   
