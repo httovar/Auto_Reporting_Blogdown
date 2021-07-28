@@ -24,13 +24,21 @@ Furhter, in my personal experience, it is a easier to mix up the process detaile
 - Add two entries to the .gitignore file: The name and extension of the `RProject` (this does not really provide any value on your repo), and `public`. The public folder contains all the HTML files that are used when hosting the website. However, netlify will create this itself and thus, the public folder does not provide any value on your repo.
 - Download the theme and create the file structure as detailed above.
 - Stage, Commit, and Push the files to your remote repository. I find it advisable to use git commands in the `RStudio` Terminal rather than the manual Git Pane (also in `RStudio`). When staging a lot of files, the git pane can crash easily. The following commands will push all changes to the remote repository from the Terminal Command Line
-  - `git add -A`: THis will stage all changed files
+  - `git add -A`: This will stage all changed files
   - `git commit -m "Initial Commit"`: This will commit all changes and add "Initial Commit" as message.
   - `git push`: This will push all changes to the remote repo.
 - If desired, use `blogdown::new_post` to create new blog posts now.
 - Connect to netlify by connecting remote git repo and netlify.
 
 ## Automating Report Creation with Dynamic `RMarkdown` Writing
+
+Within the `blogdown` structure, the core idea of the project is to create a standardized blog post that is automatically published in regular intervals. This idea poses two problems outlined below. The following section will go over the solutions to both of these problems. 
+
+- The `blogdown::new_post` function only opens a new document but does not allow to fill a document with text and code. Under different circumstances, a parameterized Rmarkdown document would be the solution but this approach does not work with the `blogdown` infrastructure. The `.rmd` file produces a specified file type as output. However, `blogdown` processes the actual `.rmd` file (and also can't supply the parameters). Instead the `.rmd` files have to be written dynamically from a predefined R script and then placed into the the folder structure that is usually created with `blogdown::new_post`.
+- The website that is hosted by netlify only updates when the remote git repository is updated. Thus, for a truly automated reporting infrastructure, the changes to the folder structure have to be pushed to the repo automatically as well.
+
+The process of generating a Rmarkdown file dynamically, actually takes place from within an R Script rather than an `.rmd` file. 
+
 
 
 
