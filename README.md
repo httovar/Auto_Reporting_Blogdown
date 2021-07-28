@@ -1,2 +1,5 @@
+# Automated Reporting with `Blogdown`
+
 This is the more applied and technical documentation of the portfolio I created for the Advanced Data Analysis with R Class. Check out the [website](https://kind-wescoff-aaca29.netlify.app/about/) for a  short introduction to the portfolio. The basic idea of the project is to create an online reporting infrastructure that automatically goes through the steps of gathering the data, generating a (standardized) report, and publish the report online. Additionally, I found it desirable to find a solution that automatically initiates each iteration of the reporting cycle without having to source the R Script manually. As the class is focused on `R`, the entire project is meant to be controlled from within the `R` ecosystem. 
-The center piece of this project is the `blogdown package`
+
+The center piece of this project is the `blogdown` package
