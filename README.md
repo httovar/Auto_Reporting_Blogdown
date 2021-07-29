@@ -37,7 +37,7 @@ Within the `blogdown` structure, the core idea of the project is to create a sta
 - The `blogdown::new_post` function only opens a new document but does not allow to fill a document with text and code. Under different circumstances, a parameterized Rmarkdown document would be the solution but this approach does not work with the `blogdown` infrastructure. The `.rmd` file produces a specified file type as output. However, `blogdown` processes the actual `.rmd` file (and also can't supply the parameters). Instead the `.rmd` files have to be written dynamically from a predefined R script and then placed into the the folder structure that is usually created with `blogdown::new_post`.
 - The website that is hosted by netlify only updates when the remote git repository is updated. Thus, for a truly automated reporting infrastructure, the changes to the folder structure have to be pushed to the repo automatically as well.
 
-The process of generating a Rmarkdown file dynamically, actually takes place from within an R Script rather than an `.rmd` file. The idea is to create a long character string that mimics the syntax of an `.rmd` file within the R script and then use the `write` function to write this character string to a file with an `.rmd` extention (and thus creating an `RMarkdown` file). The following code chunk examplifies this idea with the standard example content of a new `RMarkdown` file. This process makes extensive use of the `paste()` and `paste0()` functions to create a character string that is readable when creating it within R. The `sep` argument of the `paste()` function also allows to closely follow the syntax of an `.rmd` file, which is especially important when creating the `yaml` section that is sensitive to indentations and white space.
+The process of generating a Rmarkdown file dynamically, actually takes place from within an R Script rather than an `.rmd` file. The idea is to create a long character string that mimics the syntax of an `.rmd` file within the R script and then use the `write` function to write this character string to a file with an `.rmd` extention (and thus creating an `RMarkdown` file). The following code chunk exemplifies this idea with the standard example content of a new `RMarkdown` file. This process makes extensive use of the `paste()` and `paste0()` functions to create a character string that is readable when creating it within R. The `sep` argument of the `paste()` function also allows to closely follow the syntax of an `.rmd` file, which is especially important when creating the `yaml` section that is sensitive to indentations and white space.
 
 ```
 yaml_header <- paste("---",
@@ -85,6 +85,18 @@ write(complete_doc,
       paste0(path,"/","example_doc.Rmd"))
 ```
 
+For the actual report, a few steps preceded the writing of the `.rmd` file. The entire Script can be found in this [GitHub repositoty](https://github.com/httovar/auto_reporting_dyn_rmd). Note that in my directory, the two repositories are stacked. The folder with the dynamic markdown script is the parent directory to the blogdown folders. This allows for easy access to sub-directories from within the dynamic R script, which is important for automated blog creation (as will become more obvious below). The file structure looks similar to this structure:
+```
+- Dynamic_Markdown_Folder
+  - Dynamic_Markdown_R_Script.R
+  - Blogdown_Folder
+    - content
+      - post
+        - folders_for_each_blog_post
+      - page
+      - categories
+    - other_Blogdown_specific_folders_and_files
+```
 
 
 
