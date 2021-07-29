@@ -37,8 +37,53 @@ Within the `blogdown` structure, the core idea of the project is to create a sta
 - The `blogdown::new_post` function only opens a new document but does not allow to fill a document with text and code. Under different circumstances, a parameterized Rmarkdown document would be the solution but this approach does not work with the `blogdown` infrastructure. The `.rmd` file produces a specified file type as output. However, `blogdown` processes the actual `.rmd` file (and also can't supply the parameters). Instead the `.rmd` files have to be written dynamically from a predefined R script and then placed into the the folder structure that is usually created with `blogdown::new_post`.
 - The website that is hosted by netlify only updates when the remote git repository is updated. Thus, for a truly automated reporting infrastructure, the changes to the folder structure have to be pushed to the repo automatically as well.
 
-The process of generating a Rmarkdown file dynamically, actually takes place from within an R Script rather than an `.rmd` file. 
+The process of generating a Rmarkdown file dynamically, actually takes place from within an R Script rather than an `.rmd` file. The idea is to create a long character string that mimics the syntax of an `.rmd` file within the R script and then use the `write` function to write this character string to a file with an `.rmd` extention (and thus creating an `RMarkdown` file). The following code chunk examplifies this idea with the standard example content of a new `RMarkdown` file. This process makes extensive use of the `paste()` and `paste0()` functions to create a character string that is readable when creating it within R. The `sep` argument of the `paste()` function also allows to closely follow the syntax of an `.rmd` file, which is especially important when creating the `yaml` section that is sensitive to indentations and white space.
 
+```
+yaml_header <- paste("---",
+                     paste("title:", "'Example'"),
+                     paste("date:", Sys.Date()),
+                     paste("author:","'Henning Tovar'"),
+                     paste("output:", "html_document"),
+                     "---",
+                     sep = "\n")
+
+
+code_chunk1 <- paste("```{r setup, include=FALSE}",
+                     "knitr::opts_chunk$set(echo = TRUE)",
+                     "```",
+                     sep = "\n")
+                     
+markdown_body1 <- paste("## R Markdown",
+                        paste("This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML,",
+                        "PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.",
+                        "When you click the **Knit** button a document will be generated that includes both content as well as",
+                        "the output of any embedded R code chunks within the document. You can embed an R code chunk like this:"),
+                        sep = "\n")
+
+code_chunk2 <- paste("```{r cars}",
+                     "summary(cars)",
+                     "```",
+                     sep = "\n")
+                     
+markdown_body2 <- paste("## Including Plots",
+                        "You can also embed plots, for example:",
+                        sep = "\n")
+
+code_chunk3 <- paste("```{r pressure, echo=FALSE}",
+                     "plot(pressure)",
+                     "```",
+                     sep = "\n")
+                     
+markdown_body3 <- paste("Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R",
+                        "code that generated the plot.")
+
+complete_doc <- paste(yaml_header,code_chunk1, markdown_body1, code_chunk2, markdown_body2,
+                      code_chunk3, markdown_body3, sep = "\n")
+                      
+write(complete_doc,
+      paste0(path,"/","example_doc.Rmd"))
+```
 
 
 
