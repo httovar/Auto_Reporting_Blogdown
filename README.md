@@ -85,7 +85,8 @@ write(complete_doc,
       paste0(path,"/","example_doc.Rmd"))
 ```
 
-For the actual report, a few steps preceded the writing of the `.rmd` file. The entire Script can be found in this [GitHub repositoty](https://github.com/httovar/auto_reporting_dyn_rmd). Note that in my directory, the two repositories are stacked. The folder with the dynamic markdown script is the parent directory to the blogdown folders. This allows for easy access to sub-directories from within the dynamic R script, which is important for automated blog creation (as will become more obvious below). The file structure looks similar to this structure:
+For the actual report, a few steps preceded the writing of the `.rmd` file. The entire Script can be found in this [GitHub repositoty](https://github.com/httovar/auto_reporting_dyn_rmd). Note that for the intended directory structure, the two repositories are stacked. The folder with the dynamic markdown script is the parent directory to the blogdown folders. This allows for easy access to sub-directories from within the dynamic R script, which is important for automated blog creation (as will become more obvious below). The file structure looks similar to this structure:
+
 ```
 - Dynamic_Markdown_Folder
   - Dynamic_Markdown_R_Script.R
@@ -97,6 +98,12 @@ For the actual report, a few steps preceded the writing of the `.rmd` file. The 
       - categories
     - other_Blogdown_specific_folders_and_files
 ```
+In order to produce the report, the R script first scrapes data from the web, then processes this data and saves the data to a `.csv` file. Then the `.rmd` files is produced that uses the scraped data to generate tables and plots. Since this project is not focused on web scraping, I am not detailing the exact procedure here (although it obviously is in the [R script](https://github.com/httovar/auto_reporting_dyn_rmd/blob/main/Dynamic_Reporting.R)). Essentially, the script scrapes the Top 100 Single charts and some additional meta information. This information is used for simple tables, plots and some additional descriptive text. The actual analysis is not particularly involved but could be further developed if so desired.
+The crucial step is to place the `.rmd` and `.csv` files in the correct position for processing with `blogdown::build_site()`. Under the hood, `blogdown::new_post()` creates a new folder in the `post` directory for each new blog post. This folder is, subsequently, processed when building the website. The next step of the R script is, consequently, to create a new folder within the `post` directory and then populate this folder with the `.rmd` and `.csv` files. The `blogdown` folder structure is now ready to be processed and deployed.
+
+## Automated Git Commands and Tasks Scheduling
+
+
 
 
 
