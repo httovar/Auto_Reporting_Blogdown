@@ -103,8 +103,41 @@ The crucial step is to place the `.rmd` and `.csv` files in the correct position
 
 ## Automated Git Commands and Tasks Scheduling
 
+The last two steps of this process are (i) staging, committing, and pushing the new folder and files to the remote git repository, (ii) automating the entire work flow. Since both steps require scripts that are tailored to my personal file directory, the actual scripts are not publicly accessible. However, this documentation shows the general code to reproduce the results.
 
+In order to automate git commands, the `git2r` package is utilized. The package provides function to interact with git and remote git repos from within R. The `git_commands.R` script that is called at the end of the [dynamic MarkDDown  script](https://github.com/httovar/auto_reporting_dyn_rmd/blob/main/Dynamic_Reporting.R) contains the following commands. Note the comments for more information. To reproduce this step, personal access token or SSH key to the remote git repository are required.
 
+```
+#Set Up
+library(git2r)
+
+#Before the changed files can be pushed to github, they have to be created.
+#Thus, the blogdown::build_site() function is called
+
+#Setting the pandoc environment variable since call from different environment.
+Sys.setenv(RSTUDIO_PANDOC="C:/Program Files/RStudio/bin/pandoc")
+
+#Running the build site command
+blogdown::build_site(build_rmd = T)
+
+#completing git commands
+git2r::add(path = file_path_to_changed_files)
+
+git2r::commit(all=TRUE, message="Commit Mesage")
+ 
+git2r::push(credentials = c(github_name, github_Peronsal_Accesss_Token))
+```
+
+Lastly, the entire procedure is automated with the Windows Task Scheduler (for Linux and Mac based system `Cron` does the same). As the name indicates, the task scheduler allows for the scheduled execution of certain tasks, including running scripts. The scripts are run from the Windows command line rather than from inside `RStudio` (or other IDEs). Thus, the exact path to the R script has to be indicated from the root directory (C: in my case). While it possible to run R scripts directly from the windows command line and schedule this, it is less error prone to create a Windows `batch` file that contains the command line command. Simply create a raw text file that contains the following code and after saving it, change the file extension to `.bat`. Note that this assumes that the `RScript.exe` utility is on the PATH environmental variable. The `batch` file will execute the specified routine when opening the file. 
+
+```
+@echo off
+Rscript	PATH_TO_RSCRIPT
+```
+
+The Windows Task Scheduler has an instructive GUI that guides through the process of creating a task. Within this process refer to the new `.bat` file. It should be noted that scheduled tasks can only be run when the computer is running. It is not possible to execute them while the computer is powered off (or in sleep mode).
+
+This step completes the process of automatically posting 
 
 
   
