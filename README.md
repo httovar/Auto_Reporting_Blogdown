@@ -135,9 +135,7 @@ Lastly, the entire procedure is automated with the Windows Task Scheduler (for L
 Rscript	PATH_TO_RSCRIPT
 ```
 
-The Windows Task Scheduler has an instructive GUI that guides through the process of creating a task. Within this process refer to the new `.bat` file. It should be noted that scheduled tasks can only be run when the computer is running. It is not possible to execute them while the computer is powered off (or in sleep mode).
-
-This step completes the process of automatically posting 
+The Windows Task Scheduler has an instructive GUI that guides through the process of creating a task. Within this process refer to the new `.bat` file. It should be noted that scheduled tasks can only be run when the computer is running. It is not possible to execute them while the computer is powered off (or in sleep mode). This step completes the process of automatically generating a report and publishing it online. 
 
 
   
