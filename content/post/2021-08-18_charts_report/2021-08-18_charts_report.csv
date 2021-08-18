@@ -1,0 +1,101 @@
+current,last_week,artist,title,label,weeks_in_charts,peak_in_charts,last_week_fill
+1,1,Ed Sheeran,Bad Habits,Atlantic,7,1,1
+2,NA,Helene Fischer feat. Luis Fonsi,Vamos a marte,Universal Domestic Polydor,1,2,0
+3,2,Montez,Auf & ab,Universal Domestic Vertigo,2,2,2
+4,4,The Kid Laroi / Justin Bieber,Stay,Columbia,5,4,4
+5,5,Shouse,Love Tonight,Hell Beach,8,5,5
+6,3,RAF Camora feat. Bonez MC,Blaues Licht,Indipendenza,3,1,3
+7,6,Pashanim,Sommergewitter,Urban,7,1,6
+8,7,Måneskin,Beggin',RCA,10,1,7
+9,8,Olivia Rodrigo,Good 4 U,Olivia Rodrigo,13,1,8
+10,9,Måneskin,I Wanna Be Your Slave,RCA,12,3,9
+11,10,Justin Wellington and Small Jam,Iko Iko,Columbia / B1,15,7,10
+12,NA,Dardan / Cro,Cloud 7,Urban,1,12,0
+13,13,Lil Nas X & Jack Harlow,Industry Baby,Columbia,3,13,13
+14,11,Nathan Evans,Wellerman,Polydor,29,1,11
+15,NA,Lune,Hab nur eine Bitte,Lune,1,15,0
+16,15,Tinlicker & Helsloot,Because You Move Me,Kontor Records,8,15,15
+17,12,Riton x Nightcrawlers feat. Mufasa & Hypeman,Friday (Dopamine Re-Edit),Columbia,26,3,12
+18,NA,The Weeknd,Take My Breath,Republic Records,1,18,0
+19,NA,Ufo361,Flip$,Stay High,1,19,0
+20,NA,KC Rebell,Filet Mignon,Rebell Army,1,20,0
+21,16,Shirin David,Lieben wir,Juicy Money Records,6,1,16
+22,14,Wes Nelson & Yxng Bane,Nice To Meet Ya,EMI,11,5,14
+23,17,Lil Nas X,Montero (Call Me By Your Name),Columbia,20,2,17
+24,20,The Weeknd,Save Your Tears,Republic Records,30,5,20
+25,23,Billie Eilish,Happier Than Ever,Interscope,2,23,23
+26,29,Super-Hi x Neeka,Following The Sun,Blended,9,26,29
+27,22,OneRepublic,Run,Interscope,14,19,22
+28,18,Jamule,Wenn ich geh,Life Is Pain,4,9,18
+29,19,RAF Camora,Zukunft,Indipendenza,4,4,19
+30,24,Lea x Casper,Schwarz,Four Music / Treppenhaus,6,7,24
+31,27,atb x Topic x A7S,Your Love (9PM),Virgin Records,30,6,27
+32,31,HBz,King Kong,Virgin Records,9,31,31
+33,25,P!nk + Willow Sage Hart,Cover Me In Sunshine,RCA,24,7,25
+34,26,"01099 - Gustav, Zachi",Durstlöscher,01099,13,17,26
+35,28,Dua Lipa,Levitating,Urban,21,16,28
+36,NA,Gringo / Sido / DJ Desue,Pink Panther 2,Sony Music / SLS MUSIC,1,36,0
+37,30,Luciano [DE],Schmetterling,Urban,8,3,30
+38,39,Glass Animals,Heat Waves,Polydor,15,38,39
+39,34,Ofenbach feat. Lagique,Wasted Love,Elektra,24,12,34
+40,57,Milky Chance,Colorado,Muggelig Records GmbH,3,40,57
+41,35,Shirin David,Ich darf das,Juicy Money Records,13,1,35
+42,32,Mark Forster x Lea,Drei Uhr nachts,Four Music,18,15,32
+43,33,Tiësto,The Business,Atlantic,41,3,33
+44,38,Jamule,Liege wieder wach,Life Is Pain,16,3,38
+45,NA,Azzi Memo feat. Capo,Heb ab 2,Azzlackz,1,45,0
+46,36,Tom Gregory,River,Kontor Records,11,36,36
+47,44,The Weeknd,Blinding Lights,Republic Records,89,1,44
+48,45,Bausa feat. Apache 207,Madonna,Warner Music Germany,25,1,45
+49,41,Masked Wolf,Astronaut In The Ocean,Elektra,31,4,41
+50,86,David Guetta / MistaJam / John Newman,If You Really Love Me (How Will I Know),Parlophone Label Group,4,50,86
+51,43,Alvaro Soler,Magia,Airforce1,18,28,43
+52,40,Coldplay,Higher Power,Parlophone Label Group,14,35,40
+53,46,Glockenbach feat. ClockClock,Redlight,Wefor,11,38,46
+54,42,Vegedream,Ramenez la coupe à la maison,Universal,9,9,42
+55,58,T-Low,Crashen,Spinnup,4,55,58
+56,50,Joel Corry feat. MNEK,Head & Heart,Atlantic,56,4,50
+57,52,The Kid Laroi,Without You,Columbia,33,13,52
+58,47,Leony,Faded Love,Kontor Records,25,17,47
+59,55,Tom Grennan,Little Bit Of Love,RCA,14,53,55
+60,NA,Endzone / TM,61 Grad,2Live Entertainment,1,60,0
+61,48,Justin Bieber feat. Daniel Caesar & Giveon,Peaches,Def Jam,21,2,48
+62,61,01099 - Gustav,Frisch,01099,19,36,61
+63,56,"187 Strassenbande / Bonez, Frauenarzt",Extasy,187 Strassenbande,14,1,56
+64,60,Majestic x Boney M.,Rasputin,NITRON,15,38,60
+65,62,Purple Disco Machine feat. Moss Kena & The Knocks,Fireworks,Columbia,16,32,62
+66,37,Loredana x Mozzik,Nese don,Loredana,3,10,37
+67,68,Apache 207,Roller,Four Music / TwoSides,102,1,68
+68,53,Doja Cat feat. SZA,Kiss Me More,RCA,18,31,53
+69,65,Zoe Wees,Girls Like Us,Capitol,30,9,65
+70,64,Robin Schulz & Felix Jaehn feat. Alida,One More Time,Warner Music Germany,24,37,64
+71,67,Joel Corry / Raye / David Guetta,Bed,Atlantic,23,34,67
+72,83,Lityway & Yungfijay feat. Ille & MABU,Für dich,Epic,5,72,83
+73,73,Jason Derulo x Nuka,Love Not War (The Tampa Beat),Columbia,38,9,73
+74,75,"Galantis, David Guetta & Little Mix",Heartbreak Anthem,Big Beat Records,11,57,75
+75,72,Ofenbach & Quarterhead feat. Norma Jean Martine,Head Shoulders Knees & Toes,Spinnin' Records,54,6,72
+76,88,Doja Cat,Need To Know,RCA,2,76,88
+77,NA,Doja Cat,Woman,RCA,1,77,0
+78,71,24kGoldn feat. Iann Dior,Mood,Columbia,51,1,71
+79,59,Capo,Ghettogirl,Warner Music Germany,11,7,59
+80,70,Lena,Strip,Universal Domestic Polydor,10,70,70
+81,78,Miksu / Macloud / Jamule / Nimo,Frag mich nicht,Futura,20,2,78
+82,96,Laurell,Habit,FFMM GmbH,2,82,96
+83,82,Tones And I,Dance Monkey,Bad Batch Records,105,1,82
+84,77,Luna [DE],Blau,Four Music / Treppenhaus,4,63,77
+85,49,BTS,Butter,Sony Music / BTS,12,6,49
+86,80,Michael Patrick Kelly,Throwback,Columbia,3,30,80
+87,69,Trinidad Cardona,Dinero,Run It Up Records,9,23,69
+88,63,Lucio101,Tränen,Columbia,3,54,63
+89,NA,"Martin Garrix, G-Eazy & Sasha Alex Sloan",Love Runs Out,Epic,1,89,0
+90,90,Ava Max,EveryTime I Cry,Atlantic,2,90,90
+91,74,Camila Cabello,Don't Go Yet,Epic,3,70,74
+92,84,Calvin Harris / Tom Grennan,By Your Side,Columbia,5,75,84
+93,85,Tom Odell,Another Love,Columbia,84,11,85
+94,66,"Kalazh44, Capital Bra",Rote Augen 2,Kalazh44,3,20,66
+95,89,Travis Scott feat. Kendrick Lamar,Goosebumps,Epic / B1,32,47,89
+96,81,Martin Garrix feat. Bono & The Edge,We Are The People,Columbia / B1,9,15,81
+97,100,SAINt JHN,Roses,Columbia / B1,4,94,100
+98,95,Meduza feat. Dermot Kennedy,Paradise,Virgin Records,41,14,95
+99,97,Robin Schulz feat. Kiddo,All We Got,Warner Music Germany,43,5,97
+100,NA,Alvaro Soler & Cali y El Dandee,Mañana,Airforce1,3,98,0
