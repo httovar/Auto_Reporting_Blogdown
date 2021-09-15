@@ -1,0 +1,101 @@
+current,last_week,artist,title,label,weeks_in_charts,peak_in_charts,last_week_fill
+1,NA,Shindy,Mandarinen,SME - Sony Music / Friends With Money,1,1,0
+2,1,The Kid Laroi / Justin Bieber,Stay,SME - Columbia,9,1,1
+3,NA,ABBA,I Still Have Faith In You,Polydor,1,3,0
+4,2,Ed Sheeran,Bad Habits,Atlantic,11,1,2
+5,NA,ABBA,Don't Shut Me Down,Universal,1,5,0
+6,3,Montez,Auf & ab,Universal Domestic Vertigo,6,1,3
+7,NA,Apache 207,2sad2disco (Kapitel I),SME - Four Music / TwoSides,1,7,0
+8,5,Pajel,10von10,SME - Epic / DOPE,4,5,5
+9,4,Shouse,Love Tonight,Hell Beach,12,4,4
+10,6,RAF Camora feat. Bonez MC,Blaues Licht,Indipendenza,7,1,6
+11,13,Glass Animals,Heat Waves,Polydor,19,11,13
+12,7,RAF Camora x Juju,Wenn du mich siehst,Indipendenza,3,2,7
+13,9,Lil Nas X & Jack Harlow,Industry Baby,SME - Columbia,7,9,9
+14,8,Pashanim,Sommergewitter,Urban,11,1,8
+15,17,ART,Belgisches Viertel,23HOURS,2,15,17
+16,10,Måneskin,Beggin',SME - RCA,14,1,10
+17,11,Olivia Rodrigo,Good 4 U,Olivia Rodrigo,17,1,11
+18,NA,Broilers,Alice und Sarah,Skull & Palms Recordings,1,18,0
+19,16,Tinlicker & Helsloot,Because You Move Me,Kontor Records,12,14,16
+20,15,Justin Wellington and Small Jam,Iko Iko,SME - Columbia / B1,19,7,15
+21,18,Doja Cat,Woman,SME - RCA,5,18,18
+22,14,Måneskin,I Wanna Be Your Slave,SME - RCA,16,3,14
+23,30,Helene Fischer feat. Luis Fonsi,Vamos a marte,Universal Domestic Polydor,5,2,30
+24,28,Lost Frequencies / Calum Scott,Where Are You Now,SME - RCA,4,24,28
+25,19,Nathan Evans,Wellerman,Polydor,33,1,19
+26,23,Riton x Nightcrawlers feat. Mufasa & Hypeman,Friday (Dopamine Re-Edit),SME - Columbia,30,3,23
+27,39,Joel Corry & Jax Jones feat. Charli XCX & Saweetie,Out Out,Atlantic,4,27,39
+28,27,T-Low,Crashen,Spinnup,8,27,27
+29,12,Loredana x Mozzik,Mit mir,Loredana,2,12,12
+30,29,Lea,Wenn Du mich lässt,SME - Four Music / Treppenhaus,3,22,29
+31,34,Laurell,Habit,FFMM GmbH,6,31,34
+32,25,Endzone / TM,61 Grad,2Live Entertainment,5,25,25
+33,35,Milky Chance,Colorado,Muggelig Records GmbH,7,32,35
+34,26,The Weeknd,Take My Breath,Republic Records,5,18,26
+35,32,Lil Nas X,Montero (Call Me By Your Name),SME - Columbia,24,2,32
+36,NA,Ufo361,Engel,Stay High,1,36,0
+37,37,Kanye West feat. The Weeknd & Lil Baby,Hurricane,Getting Out Our Dreams Inc.,2,37,37
+38,33,Shirin David,Lieben wir,Juicy Money Records,10,1,33
+39,21,Eno feat. Luciano,Vollmond,Crü,2,21,21
+40,38,The Weeknd,Save Your Tears,Republic Records,34,5,38
+41,36,OneRepublic,Run,Interscope,18,19,36
+42,40,Super-Hi x Neeka,Following The Sun,Blended,13,24,40
+43,42,Billie Eilish,Happier Than Ever,Interscope,6,23,42
+44,NA,Alligatoah,Nebenjob,Trailerpark,1,44,0
+45,47,atb x Topic x A7S,Your Love (9PM),Virgin Records,34,6,47
+46,46,HBz,King Kong,Virgin Records,13,31,46
+47,59,Blxst & Tyga feat. Ty Dolla $ign,Chosen,Red Bull Records,3,47,59
+48,49,Mark Forster x Lea,Drei Uhr nachts,SME - Four Music,22,15,49
+49,58,David Guetta / MistaJam / John Newman,If You Really Love Me (How Will I Know),Parlophone Label Group,8,49,58
+50,43,"01099 - Gustav, Zachi",Durstlöscher,01099,17,17,43
+51,56,Tiësto,The Business,Atlantic,45,3,56
+52,20,Ufo361,Ryu,Stay High,2,20,20
+53,55,The Weeknd,Blinding Lights,Republic Records,93,1,55
+54,22,Metallica,Enter Sandman,Mercury,19,1,22
+55,60,Ofenbach feat. Lagique,Wasted Love,Elektra,28,12,60
+56,57,P!nk + Willow Sage Hart,Cover Me In Sunshine,SME - RCA,28,7,57
+57,41,Samra x Bojan,Paradies,Cataleya Edition,3,12,41
+58,52,Jamule,Liege wieder wach,Life Is Pain,20,3,52
+59,82,Elton John & Dua Lipa,Cold Heart,EMI,3,59,82
+60,61,Tom Gregory,River,Kontor Records,15,36,61
+61,53,Doja Cat,Need To Know,SME - RCA,6,53,53
+62,51,Wes Nelson & Yxng Bane,Nice To Meet Ya,EMI,15,5,51
+63,50,Shirin David,Ich darf das,Juicy Money Records,17,1,50
+64,65,Bausa feat. Apache 207,Madonna,Warner Music Germany,29,1,65
+65,91,Pascal Letoublon feat. Leony,Friendships (Lost My Love),Virgin Records,2,65,91
+66,48,Lune,Hab nur eine Bitte.,Warner Music Germany,5,15,48
+67,54,Luciano [DE],Schmetterling,Urban,12,3,54
+68,NA,Apache 207,Weißes Kleid,SME - Four Music / TwoSides,1,68,0
+69,68,Ava Max,EveryTime I Cry,Atlantic,6,68,68
+70,69,Joel Corry feat. MNEK,Head & Heart,Atlantic,60,4,69
+71,NA,Kungs,Never Going Home,Universal,1,71,0
+72,76,Apache 207,Roller,SME - Four Music / TwoSides,106,1,76
+73,24,Dardan & Nimo,B.I.B.O.,Hypnotize Entertainment,2,24,24
+74,62,Dua Lipa,Levitating,Urban,25,16,62
+75,NA,Apache 207,So weit,SME - Four Music / TwoSides,1,75,0
+76,64,Lea x Casper,Schwarz,SME - Four Music / Treppenhaus,10,7,64
+77,73,RAF Camora,Zukunft,Indipendenza,8,4,73
+78,NA,Musso,Ich würd gern,Super1Records,1,78,0
+79,NA,"Fler, Frank White & Bass Sultan Hengzt",Underclass,Maskulin,1,79,0
+80,66,Coldplay,Higher Power,Parlophone Label Group,18,35,66
+81,74,Alvaro Soler,Magia,Airforce1,22,28,74
+82,75,Masked Wolf,Astronaut In The Ocean,Elektra,35,4,75
+83,80,Michael Patrick Kelly,Throwback,SME - Columbia,7,30,80
+84,NA,Imagine Dragons,Wrecked,Interscope,4,75,0
+85,67,Jamule,Wenn ich geh,Life Is Pain,8,9,67
+86,NA,Farruko,Pepas,SME - Epic,1,86,0
+87,77,The Kid Laroi,Without You,SME - Columbia,37,13,77
+88,78,Leony,Faded Love,Kontor Records,29,17,78
+89,84,24kGoldn feat. Iann Dior,Mood,SME - Columbia,55,1,84
+90,83,Glockenbach feat. ClockClock,Redlight,Wefor,15,38,83
+91,79,Lityway & Yungfijay feat. Ille & MABU,Für dich,SME - Epic,9,66,79
+92,NA,J Balvin & Skrillex,In Da Getto,Sueños Globales,1,92,0
+93,NA,Eskimo Callboy,We Got The Moves,SME - Century Media,1,93,0
+94,81,Tom Odell,Another Love,SME - Columbia,88,11,81
+95,NA,"DMNDS, Fallen Roses & Strange Fruits Music feat. Lujavo",Calabria,Strange Fruits,2,95,0
+96,89,01099 - Gustav,Frisch,01099,23,36,89
+97,90,Tones And I,Dance Monkey,Bad Batch Records,109,1,90
+98,NA,Shawn Mendes & Tainy,Summer Of Love,Island,2,79,0
+99,86,Justin Bieber feat. Daniel Caesar & Giveon,Peaches,Def Jam,25,2,86
+100,96,Zoe Wees,Girls Like Us,Capitol,34,9,96
