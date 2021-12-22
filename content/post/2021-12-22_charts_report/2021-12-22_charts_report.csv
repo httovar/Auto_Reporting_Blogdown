@@ -1,0 +1,101 @@
+current,last_week,artist,title,label,weeks_in_charts,peak_in_charts,last_week_fill
+1,1,Mariah Carey,All I Want For Christmas Is You,Sony Music,81,1,1
+2,2,Wham!,Last Christmas,Sony Music,152,2,2
+3,3,Gayle,abcdefu,Atlantic,5,3,3
+4,7,Sido,Mit Dir,Urban,4,4,7
+5,6,Chris Rea,Driving Home For Christmas,Warner Music International,68,3,6
+6,4,Kummer feat. Fred Rabe,Der letzte Song,Eklat Tonträger,5,1,4
+7,10,Melanie Thornton,Wonderful Dream (Holidays Are Coming),Universal Domestic Polydor,127,3,10
+8,9,Shakin' Stevens,Merry Christmas Everyone,Sony Music,26,4,9
+9,5,Ed Sheeran & Elton John,Merry Christmas,Atlantic,2,5,5
+10,11,Acraze feat. Cherish,Do It To It,"Thrive Music, LLC",7,3,11
+11,8,Ed Sheeran,Shivers,Atlantic,14,1,8
+12,12,Elton John & Dua Lipa,Cold Heart,EMI,17,3,12
+13,22,Kelly Clarkson,Underneath The Tree,RCA,19,13,22
+14,15,Glass Animals,Heat Waves,Polydor,33,2,15
+15,13,Michael Bublé,It's Beginning To Look A Lot Like Christmas,Reprise Records,25,6,13
+16,21,Lost Frequencies / Calum Scott,Where Are You Now,RCA,18,5,21
+17,20,John & Yoko / The Plastic Ono Band with The Harlem Community Choir,Happy Xmas (War Is Over),EMI,35,6,20
+18,18,Ariana Grande,Santa Tell Me,Universal,23,10,18
+19,23,Paul McCartney,Wonderful Christmastime,Capitol,22,8,23
+20,14,Montez,Auf & ab,Universal Domestic Vertigo,20,1,14
+21,19,The Kid Laroi / Justin Bieber,Stay,Columbia,23,1,19
+22,17,Adele,Easy On Me,Columbia,9,1,17
+23,30,Sia,Snowman,Monkey Puzzle Records Inc.,8,20,30
+24,26,Brenda Lee,Rockin' Around The Christmas Tree,Universal,18,12,26
+25,24,José Feliciano,Feliz Navidad,RCA,52,15,24
+26,28,Bobby Helms,Jingle Bell Rock,K-Tel,18,15,28
+27,25,Ed Sheeran,Bad Habits,Atlantic,25,1,25
+28,27,Farruko,Pepas,Epic,15,11,27
+29,29,Band Aid,Do They Know It's Christmas?,Mercury,56,1,29
+30,34,Bryan Adams,Christmas Time,Universal,20,14,34
+31,35,Justin Bieber,Mistletoe,Island,22,19,35
+32,37,Queen,Thank God It's Christmas,Universal,26,8,37
+33,NA,Eddin,I ke harru,Epic,1,33,0
+34,38,Imagine Dragons x JID,Enemy,KIDinaKORNER,7,30,38
+35,36,Shouse,Love Tonight,Hell Beach,26,4,36
+36,33,Rolf Zuckowski und seine Freunde,In der Weihnachtsbäckerei,Musik für Dich,24,20,33
+37,43,Dean Martin,Let It Snow! Let It Snow! Let It Snow!,Capitol,14,21,43
+38,NA,Samra,Draufgängerjunge,Cataleya Edition,1,38,0
+39,39,Pashanim,Paris Freestyle,Urban,8,3,39
+40,16,Luciano [DE],SUV,Urban,2,16,16
+41,44,Gzuz,Späti,187 Strassenbande,9,4,44
+42,47,Michael Bublé,Holly Jolly Christmas,Reprise Records,10,31,47
+43,48,Pentatonix,Hallelujah,RCA,31,4,48
+44,46,CKay feat. ElGrande Toto,Love Nwantiti (North African Remix),Warner Music International,14,6,46
+45,49,Lil Nas X & Jack Harlow,Industry Baby,Columbia,21,9,49
+46,51,Coldplay,Christmas Lights,Parlophone Label Group,19,26,51
+47,32,Apache 207,Kapitel IV Sport (2sad2disco),Four Music / TwoSides,3,10,32
+48,50,Jason Derulo,Acapulco,Atlantic,12,19,50
+49,52,Kylie Minogue,Santa Baby,Parlophone Label Group,9,23,52
+50,54,Nathan Evans,Wellerman,Polydor,47,1,54
+51,45,Capital Bra x Montez,Ein Jahr,Urban,4,4,45
+52,NA,Symba,Holiday Inn,Columbia,1,52,0
+53,62,Britney Spears,My Only Wish (This Year),Sony Music,18,29,62
+54,60,Dean Martin,Rudolph The Red Nosed Reindeer,Capitol,12,30,60
+55,66,Andy Williams,It's The Most Wonderful Time Of The Year,Sony Music,13,22,66
+56,55,Dardan & Nimo,B.I.B.O.,Hypnotize Entertainment,10,11,55
+57,75,Jonas Brothers,Like It's Christmas,Republic Records,8,46,75
+58,59,Coldplay x BTS,My Universe,Parlophone Label Group,12,13,59
+59,58,Olivia Rodrigo,Good 4 U,Olivia Rodrigo,31,1,58
+60,68,Sarah Connor,The Best Side Of Life,X-Cell,30,4,68
+61,56,Pascal Letoublon feat. Leony,Friendships (Lost My Love),Virgin Records,16,20,56
+62,83,Jaymes Young,Infinity,Atlantic,9,45,83
+63,57,Tinlicker & Helsloot,Because You Move Me,Kontor Records,26,14,57
+64,61,RAF Camora feat. Bonez MC,Blaues Licht,Indipendenza,21,1,61
+65,64,Lil Nas X,Thats What I Want,Columbia,13,18,64
+66,65,Purple Disco Machine feat. Eyelar,Dopamine,Columbia,10,34,65
+67,80,Gwen Stefani feat. Blake Shelton,You Make It Feel Like Christmas,Interscope,9,33,80
+68,79,Tiësto & Ava Max,The Motto,Atlantic,6,64,79
+69,70,Daryl Hall & John Oates,Jingle Bell Rock (Daryl's Version),RCA,11,30,70
+70,67,Pashanim,Sommergewitter,Urban,25,1,67
+71,NA,Bushido,90er Berlin,ersguterjunge,1,71,0
+72,69,BoyWithUke,Toxic,BoyWithUke,7,29,69
+73,53,Hava x Dardan,High,RCA,5,7,53
+74,89,Ava Max,Christmas Without You,Atlantic,6,28,89
+75,71,The Weeknd,Save Your Tears,Republic Records,48,5,71
+76,74,Pajel,10von10,Epic / DOPE,18,5,74
+77,73,Milky Chance,Colorado,Muggelig Records GmbH,21,28,73
+78,98,Katy Perry,Cozy Little Christmas,Capitol,5,47,98
+79,78,Meghan Trainor,I'll Be Home,Epic,11,36,78
+80,NA,RIN,Trance,GOLD LEAGUE,1,80,0
+81,77,Sarah Connor,The Christmas Song,Dein Label,2,77,77
+82,87,Frank Sinatra,Jingle Bells,Capitol,8,44,87
+83,88,The Weeknd,Blinding Lights,Republic Records,107,1,88
+84,76,Bing Crosby,White Christmas,Geffen Records,17,39,76
+85,81,Riton x Nightcrawlers feat. Mufasa & Hypeman,Friday (Dopamine Re-Edit),Columbia,44,3,81
+86,91,ART [DE],Belgisches Viertel,23HOURS,16,13,91
+87,NA,The Ronettes,Sleigh Ride,Sony Music,6,55,0
+88,86,Swedish House Mafia & The Weeknd,Moth To A Flame,Republic Records,8,14,86
+89,NA,Juice WRLD / Justin Bieber,Wandered To LA,Grade A Productions,1,89,0
+90,97,Sarah Connor,Christmas In My Heart,X-Cell,17,4,97
+91,92,"Natalie Cole, Nat ""King"" Cole & The London Symphony Orchestra",The Christmas Song (Chestnuts Roasting On An Open Fire),Capitol,4,50,92
+92,82,Måneskin,Beggin',RCA,28,1,82
+93,90,Frank Sinatra,Santa Claus Is Coming To Town,Sony Music,8,48,90
+94,NA,Olexesh,Katastrof,385ideal,1,94,0
+95,40,"Bojan, KC Rebell & Lune",Wohin,Cataleya Edition,2,40,40
+96,95,Eagles,Please Come Home For Christmas,Elektra,6,42,95
+97,NA,Juice WRLD,Already Dead,Interscope,3,21,0
+98,94,Elley Duhé,Middle Of The Night,RCA,3,94,94
+99,96,Joel Corry & Jax Jones feat. Charli XCX & Saweetie,Out Out,Atlantic,18,20,96
+100,84,Mario Novembre,Lautlos,Green Elephant Records,5,15,84
