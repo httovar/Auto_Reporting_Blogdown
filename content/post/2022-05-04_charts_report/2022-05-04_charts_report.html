@@ -1,0 +1,284 @@
+---
+title: Charts Report for Week of  2022-05-04
+subtitle: Based on Data Scraped from `www.offiziellecharts.de`
+date: 2022-05-04
+author: Henning Tovar
+categories: ["R", "Report","Music"]
+tags: ["Dynamic RMarkdown",  "Automated Report"]
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>This is a standardized report that analyses weekly developments in the <a href="https://www.offiziellecharts.de/charts">Top 100 German Single charts</a>. The data is automatically scraped in weekly intervals and the report is subsequently generated. The following figures and tables show some basic development in the charts. As the report is automatically generated, the content is standardized and each week’s report comes in the same layout. The Single charts rank which single has performed best during the previous week (starting and ending on Friday). Performance is measured by the sum of sales, downloads, radio plays, and streaming requests. For more information on this see the following <a href="https://www.offiziellecharts.de/info/faq">website</a>. As this is a ranked evaluation, a smaller rank (i.e. closer to 1) indicates better performance than a larger rank.</p>
+<div id="weekly-development-in-german-single-charts-week-nr.18" class="section level2">
+<h2>Weekly Development in German Single Charts (Week Nr.18)</h2>
+<p>For this week, the best performing single is We Made It by T-Low &amp; Miksu / Macloud. The song has been in the charts for 1 weeks and was not in the charts last week last week. The song that is currently in the charts and has been in the charts the longest is Roller by Apache 207. The song has been in the charts for 134 weeks and is currently ranked 87. For this week, there are 13 newcomers to the list. The ranks of the new songs range from place 1 to 95.</p>
+<p>The plots below show a visual approach to the weekly developments. The four scatter plots below show typical patterns in the data. For these plots, the most interesting data points are those that fall outside the obvious patterns. These data points can indicate particularly rapid developments. The plot in the top left shows the strong association between the current position in the charts and the rank it achieved in the previous week. Observations in the bottom right or top left of this plot either improved their position substantially relative to the previous week (bottom right) or performed substantially worse compared to the previous week (top left).</p>
+<p>The plot in the top right shows the association between peak position and the rank a song achieved in the previous week. Unsurprisingly, this association does not look strong. There is no reason to assume that songs peaked just in the previous week. Rather the plot shows that many songs peaked towards the top of the charts and are then moving towards the bottom. The top left half of the scatter plot is not achievable for any observation as this would indicate the contradictory situation that a song achieved a higher rank in the previous week than the peak rank it achieved overall.</p>
+<p>The plots in the lower half show that songs typically do not stay in the charts for a long time and move towards the lower ranks as the number of weeks in the charts increases. The plot on the left shows that songs that peak towards the lower end of the charts often only remain a few weeks in the charts. But even songs that peak towards the top of the charts typically do not remain in the charts for a long time. The stay in the charts is 13 weeks. The scatter plot on the left indicates that songs that have been in the charts for a relatively long time, typically are in the lower half of the ranks. However, a song that places high in the current position and the number of weeks in the charts (bottom right of the plot on the right) would display extraordinary performance over a long time.</p>
+<p><img src="/post/2022-05-04_charts_report/2022-05-04_charts_report_files/figure-html/scatter%20plots-1.png" width="672" /></p>
+<p>The bar plots below show the number of songs a respective label or artists is able to place in charts simultaneously. The following tables then drill down into this and show the exact artists and labels with more than one song in the charts. Unsurprisingly, very few artists are able to place more than one song in the charts at the same time. Notably, collaborative songs are not double counted for each collaborating artist but rather the collaboration is taken as a figurative artist.
+<img src="/post/2022-05-04_charts_report/2022-05-04_charts_report_files/figure-html/Tables%20and%20Bar%20Plots-1.png" width="672" /></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">artist</th>
+<th align="right">n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Ed Sheeran</td>
+<td align="right">3</td>
+</tr>
+<tr class="even">
+<td align="left">Rammstein</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Shouse</td>
+<td align="right">2</td>
+</tr>
+<tr class="even">
+<td align="left">The Weeknd</td>
+<td align="right">2</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/post/2022-05-04_charts_report/2022-05-04_charts_report_files/figure-html/Tables%20and%20Bar%20Plots-2.png" width="672" /></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">label</th>
+<th align="right">n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Columbia</td>
+<td align="right">12</td>
+</tr>
+<tr class="even">
+<td align="left">Atlantic</td>
+<td align="right">9</td>
+</tr>
+<tr class="odd">
+<td align="left">Epic</td>
+<td align="right">6</td>
+</tr>
+<tr class="even">
+<td align="left">RCA</td>
+<td align="right">4</td>
+</tr>
+<tr class="odd">
+<td align="left">Interscope</td>
+<td align="right">3</td>
+</tr>
+<tr class="even">
+<td align="left">Polydor</td>
+<td align="right">3</td>
+</tr>
+<tr class="odd">
+<td align="left">Republic Records</td>
+<td align="right">3</td>
+</tr>
+<tr class="even">
+<td align="left">Universal Domestic Vertigo</td>
+<td align="right">3</td>
+</tr>
+<tr class="odd">
+<td align="left">Urban</td>
+<td align="right">3</td>
+</tr>
+<tr class="even">
+<td align="left">187 Strassenbande</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">EMI</td>
+<td align="right">2</td>
+</tr>
+<tr class="even">
+<td align="left">Good Kid Records/VENTURA Records</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Hell Beach</td>
+<td align="right">2</td>
+</tr>
+<tr class="even">
+<td align="left">Indipendenza</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Jinx Music</td>
+<td align="right">2</td>
+</tr>
+<tr class="even">
+<td align="left">Kontor Records</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Musical Freedom</td>
+<td align="right">2</td>
+</tr>
+<tr class="even">
+<td align="left">Parlophone Label Group</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Rammstein</td>
+<td align="right">2</td>
+</tr>
+<tr class="even">
+<td align="left">Spinnup</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Virgin Records</td>
+<td align="right">2</td>
+</tr>
+<tr class="even">
+<td align="left">Warner Music Germany</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Wefor</td>
+<td align="right">2</td>
+</tr>
+</tbody>
+</table>
+<p>Lastly, the following table shows songs that for which the current position also equals their peak positions. In general, these songs are performing at their peak currently. However, it is also possible that a song is returning to a place it peaked on previously or is remaining on a peak for a week.</p>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="37%" />
+<col width="12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">artist</th>
+<th align="left">title</th>
+<th align="right">Position</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">T-Low &amp; Miksu / Macloud</td>
+<td align="left">We Made It</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Ion Miles / SiraOne / BHZ</td>
+<td align="left">Powerade</td>
+<td align="right">5</td>
+</tr>
+<tr class="odd">
+<td align="left">RAF Camora</td>
+<td align="left">Mein Planet</td>
+<td align="right">10</td>
+</tr>
+<tr class="even">
+<td align="left">Camila Cabello feat. Ed Sheeran</td>
+<td align="left">Bam Bam</td>
+<td align="right">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Juju x Chapo102 x Philipp Poisel</td>
+<td align="left">Erkläre mir die Liebe</td>
+<td align="right">20</td>
+</tr>
+<tr class="even">
+<td align="left">Alvaro Soler / Ray Dalton</td>
+<td align="left">Manila</td>
+<td align="right">23</td>
+</tr>
+<tr class="odd">
+<td align="left">Jax Jones &amp; MNEK</td>
+<td align="left">Where Did You Go?</td>
+<td align="right">28</td>
+</tr>
+<tr class="even">
+<td align="left">Shouse</td>
+<td align="left">Won’t Forget You</td>
+<td align="right">36</td>
+</tr>
+<tr class="odd">
+<td align="left">Julian Sommer</td>
+<td align="left">Dicht im Flieger</td>
+<td align="right">40</td>
+</tr>
+<tr class="even">
+<td align="left">Panic! At The Disco</td>
+<td align="left">House Of Memories</td>
+<td align="right">45</td>
+</tr>
+<tr class="odd">
+<td align="left">Maxwell</td>
+<td align="left">Druff</td>
+<td align="right">50</td>
+</tr>
+<tr class="even">
+<td align="left">Romero [DE]</td>
+<td align="left">Sie liebt Techno</td>
+<td align="right">52</td>
+</tr>
+<tr class="odd">
+<td align="left">Kamrad</td>
+<td align="left">I Believe</td>
+<td align="right">56</td>
+</tr>
+<tr class="even">
+<td align="left">Malik Harris</td>
+<td align="left">Rockstars</td>
+<td align="right">57</td>
+</tr>
+<tr class="odd">
+<td align="left">Clueso x Elif</td>
+<td align="left">Mond</td>
+<td align="right">58</td>
+</tr>
+<tr class="even">
+<td align="left">Sun Diego feat. Farid Bang &amp; Kollegah</td>
+<td align="left">Schwarz Rot Gold</td>
+<td align="right">59</td>
+</tr>
+<tr class="odd">
+<td align="left">Tate McRae</td>
+<td align="left">She’s All I Wanna Be</td>
+<td align="right">61</td>
+</tr>
+<tr class="even">
+<td align="left">OneRepublic</td>
+<td align="left">Sunshine</td>
+<td align="right">69</td>
+</tr>
+<tr class="odd">
+<td align="left">The Kid Laroi</td>
+<td align="left">Thousand Miles</td>
+<td align="right">71</td>
+</tr>
+<tr class="even">
+<td align="left">Ed Sheeran feat. Lil Baby</td>
+<td align="left">2step</td>
+<td align="right">79</td>
+</tr>
+<tr class="odd">
+<td align="left">George Ezra</td>
+<td align="left">Anyone For You (Tiger Lily)</td>
+<td align="right">81</td>
+</tr>
+<tr class="even">
+<td align="left">Imanbek &amp; BYOR</td>
+<td align="left">Belly Dancer</td>
+<td align="right">93</td>
+</tr>
+<tr class="odd">
+<td align="left">Dante YN</td>
+<td align="left">440 Babys</td>
+<td align="right">95</td>
+</tr>
+</tbody>
+</table>
+</div>

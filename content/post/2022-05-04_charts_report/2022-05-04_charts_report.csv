@@ -1,0 +1,101 @@
+current,last_week,artist,title,label,weeks_in_charts,peak_in_charts,last_week_fill
+1,NA,T-Low & Miksu / Macloud,We Made It,Spinnup,1,1,0
+2,1,Harry Styles,As It Was,Columbia,4,1,1
+3,4,Miksu / MacLoud & T-Low,Sehnsucht,Futura,8,1,4
+4,2,Jack Harlow,First Class,Generation Now/Atlantic,3,2,2
+5,NA,Ion Miles / SiraOne / BHZ,Powerade,Sony Music / BHZ,1,5,0
+6,5,Glass Animals,Heat Waves,Polydor,52,2,5
+7,6,Leony,Remedy,Kontor Records,11,5,6
+8,7,Gayle,abcdefu,Atlantic,24,1,7
+9,8,Lost Frequencies / Calum Scott,Where Are You Now,RCA,37,5,8
+10,NA,RAF Camora,Mein Planet,Indipendenza,1,10,0
+11,12,Civo,Weg von mir,Good Kid Records/VENTURA Records,13,4,12
+12,17,Camila Cabello feat. Ed Sheeran,Bam Bam,Epic,8,12,17
+13,9,Ed Sheeran,Shivers,Atlantic,33,1,9
+14,10,Elton John & Dua Lipa,Cold Heart,EMI,36,3,10
+15,14,Farruko,Pepas,Epic,34,11,14
+16,15,Purple Disco Machine + Sophie And The Giants,In The Dark,Columbia,11,12,15
+17,13,Imagine Dragons x JID,Enemy,Interscope,26,4,13
+18,16,Jaymes Young,Infinity,Atlantic,28,11,16
+19,11,Tiësto & Ava Max,The Motto,Atlantic,25,10,11
+20,NA,Juju x Chapo102 x Philipp Poisel,Erkläre mir die Liebe,Jinx Music,1,20,0
+21,18,Ed Sheeran,Bad Habits,Atlantic,44,1,18
+22,21,ClockClock,Sorry,Wefor,5,21,21
+23,23,Alvaro Soler / Ray Dalton,Manila,Epic,12,23,23
+24,19,The Kid Laroi / Justin Bieber,Stay,Columbia,42,1,19
+25,20,Acraze feat. Cherish,Do It To It,Thrive Music/Virgin Music,26,3,20
+26,27,Tom Odell,Another Love,Columbia,116,11,27
+27,22,Luude feat. Colin Hay,Down Under,Sweat It Out,15,9,22
+28,28,Jax Jones & MNEK,Where Did You Go?,Polydor,5,28,28
+29,24,Jason Derulo,Acapulco,Atlantic,31,18,24
+30,3,Rammstein,Zick zack,Rammstein,3,1,3
+31,29,Öwnboss & Sevek,Move Your Body,Musical Freedom,6,29,29
+32,31,Elley Duhé,Middle Of The Night,RCA,20,31,31
+33,25,Shouse,Love Tonight,Hell Beach,45,4,25
+34,26,Lil Nas X,Thats What I Want,Columbia,31,11,26
+35,30,Montez,Auf & ab,Universal Domestic Vertigo,39,1,30
+36,37,Shouse,Won't Forget You,Hell Beach,6,36,37
+37,43,01099 - Cro,Glücklich,01099,5,16,43
+38,32,Sido,Mit Dir,Urban,23,3,32
+39,38,RAF Camora feat. Bonez MC,Blaues Licht,Indipendenza,39,1,38
+40,63,Julian Sommer,Dicht im Flieger,Electrola,4,40,63
+41,35,Robin Schulz & Dennis Lloyd,Young Right Now,Warner Music Germany,18,28,35
+42,36,Nathan Evans,Wellerman,Polydor,66,1,36
+43,40,Glockenbach x ClockClock,Brooklyn,Wefor,17,26,40
+44,33,Lil Tjay,In My Head,Columbia,4,22,33
+45,NA,Panic! At The Disco,House Of Memories,Fueled By Ramen,1,45,0
+46,45,The Weeknd,Save Your Tears,Republic Records,66,5,45
+47,34,1986zig,Kopf aus,Good Kid Records/VENTURA Records,13,3,34
+48,41,Pajel,10von10,Epic / DOPE,36,2,41
+49,42,Lil Nas X & Jack Harlow,Industry Baby,Columbia,40,9,42
+50,NA,Maxwell,Druff,187 Strassenbande,1,50,0
+51,85,T-Low,Crashen,Spinnup,20,27,85
+52,NA,Romero [DE],Sie liebt Techno,Epic,1,52,0
+53,44,Silva,Jumper,Urban,4,44,44
+54,47,Dove Cameron,Boyfriend,Columbia,11,26,47
+55,46,A1 x J1 & Tion Wayne,Night Away (Dance),EMI,6,46,46
+56,58,Kamrad,I Believe,Kamrad,10,56,58
+57,77,Malik Harris,Rockstars,Better Now Records,4,57,77
+58,NA,Clueso x Elif,Mond,Epic,1,58,0
+59,NA,Sun Diego feat. Farid Bang & Kollegah,Schwarz Rot Gold,BBM Records,1,59,0
+60,52,Topic x Robin Schulz x Nico Santos x Paul van Dyk,In Your Arms (For An Angel),Virgin Records,12,36,52
+61,62,Tate McRae,She's All I Wanna Be,RCA,9,61,62
+62,49,Demi Lovato,Cool For The Summer,Universal,6,33,49
+63,64,Charlie Puth,Light Switch,Atlantic,10,62,64
+64,51,SDP x Montez,Wie viele Lieder muss ich noch schreiben?,Nur Musik ist schöner,9,15,51
+65,50,Olivia Rodrigo,Good 4 U,Olivia Rodrigo,50,1,50
+66,48,The Weeknd,Blinding Lights,Republic Records,125,1,48
+67,56,Fourty & Mathea,Wenn Du mich vermisst,Life Is Pain,11,18,56
+68,55,Chapo102 & 102 Boyz,Missed Calls,Jinx Music,5,30,55
+69,70,OneRepublic,Sunshine,Interscope,2,69,70
+70,61,Pashanim,Sommergewitter,Urban,43,1,61
+71,NA,The Kid Laroi,Thousand Miles,Columbia,1,71,0
+72,57,Shawn Mendes,When You're Gone,Island,4,37,57
+73,54,Tinlicker & Helsloot,Because You Move Me,Kontor Records,44,14,54
+74,53,"David Guetta, Becky Hill & Ella Henderson",Crazy What Love Can Do,Parlophone Label Group,3,53,53
+75,67,Kummer feat. Fred Rabe,Der letzte Song (Alles wird gut),Eklat Tonträger,24,1,67
+76,79,Rammstein,Zeit,Rammstein,7,1,79
+77,68,Alle Farben feat. Kiddo,Alright,Warner Music Germany,19,37,68
+78,59,Gzuz,Späti,187 Strassenbande,28,4,59
+79,NA,Ed Sheeran feat. Lil Baby,2step,Atlantic,1,79,0
+80,65,Swedish House Mafia & The Weeknd,Moth To A Flame,Republic Records,25,14,65
+81,86,George Ezra,Anyone For You (Tiger Lily),Columbia,7,81,86
+82,74,Adele,Easy On Me,Columbia,28,1,74
+83,84,Ed Sheeran,Overpass Graffiti,Atlantic,23,17,84
+84,76,Macklemore & Ryan Lewis feat. Ray Dalton,Can't Hold Us,Macklemore,95,2,76
+85,87,Endzone / TM,61 Grad,2Live Entertainment,23,25,87
+86,39,Gallo Nero x Bonez MC,Mukke,GOLD LEAGUE,2,39,39
+87,75,Apache 207,Roller,Four Music / Two Sides,134,1,75
+88,71,Coldplay x BTS,My Universe,Parlophone Label Group,31,13,71
+89,78,CKay feat. ElGrande Toto,Love Nwantiti (North African Remix),Warner Music International,33,6,78
+90,72,Pascal Letoublon feat. Leony,Friendships (Lost My Love),Virgin Records,35,20,72
+91,81,AnnenMayKantereit feat. Giant Rooks,Tom's Diner,Universal Domestic Vertigo,6,76,81
+92,82,Eminem,Without Me,Interscope,37,1,82
+93,NA,Imanbek & BYOR,Belly Dancer,Musical Freedom,1,93,0
+94,73,Riton x Nightcrawlers feat. Mufasa & Hypeman,Friday (Dopamine Re-Edit),Columbia,62,3,73
+95,NA,Dante YN,440 Babys,Epic,1,95,0
+96,96,Art [DE],Belgisches Viertel,23HOURS,34,13,96
+97,88,Alesso & Katy Perry,When I'm Gone,10:22 PM,4,88,88
+98,89,Doja Cat,Woman,RCA,30,18,89
+99,80,Kraftklub,Ein Song reicht,Universal Domestic Vertigo,4,20,80
+100,98,Gabry Ponte x LUM!X x Prezioso,Thunder,Spinnin' Records,14,79,98
