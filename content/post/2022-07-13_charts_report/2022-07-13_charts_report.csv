@@ -1,0 +1,101 @@
+current,last_week,artist,title,label,weeks_in_charts,peak_in_charts,last_week_fill
+1,1,DJ Robin & Schürze,Layla,Universal Domestic Polydor,8,1,1
+2,3,Luciano [DE],Beautiful Girl,Urban,10,1,3
+3,2,Domiziana,Ohne Benzin,SME - Four Music,7,1,2
+4,8,Liaze,Paradise,Ventura Records,2,4,8
+5,6,Kate Bush,Running Up That Hill,EMI,25,3,6
+6,5,Ion Miles / SiraOne / BHZ,Powerade,SME - Sony Music / BHZ,11,2,5
+7,4,Harry Styles,As It Was,SME - Columbia,14,1,4
+8,7,Julian Sommer,Dicht im Flieger,Electrola,14,7,7
+9,10,T-Low & Miksu / Macloud,We Made It,Spinnup,11,1,10
+10,11,Miksu / MacLoud & T-Low,Sehnsucht,Futura,18,1,11
+11,12,James Hype & Miggy Dela Rosa,Ferrari,Universal Domestic Island,6,11,12
+12,13,Glass Animals,Heat Waves,Polydor,62,2,13
+13,9,Emilio,Ausmacht,SME - Jive,5,5,9
+14,15,Öwnboss & Sevek,Move Your Body,Musical Freedom,16,11,15
+15,18,Imanbek & BYOR,Belly Dancer,Musical Freedom,11,15,18
+16,16,Farruko,Pepas,SME - Epic,44,11,16
+17,19,SDP feat. Clueso,Die schönsten Tage,Nur Musik ist schöner,10,13,19
+18,21,Camila Cabello feat. Ed Sheeran,Bam Bam,SME - Epic,18,12,21
+19,20,Lost Frequencies / Calum Scott,Where Are You Now,SME - RCA,47,5,20
+20,22,Kamrad,I Believe,SME - Epic,20,20,22
+21,26,Ed Sheeran,Shivers,Atlantic,43,1,26
+22,24,Leony,Remedy,Kontor Records,21,5,24
+23,27,Elton John & Dua Lipa,Cold Heart,EMI,46,3,27
+24,25,Tiësto & Ava Max,The Motto,Atlantic,35,10,25
+25,23,Benzz,Je m'appelle,Universal,8,22,23
+26,45,"David Guetta, Becky Hill & Ella Henderson",Crazy What Love Can Do,Parlophone Label Group,13,26,45
+27,31,Panic! At The Disco,House Of Memories,Fueled By Ramen,11,12,31
+28,40,Felix Jaehn & The Stickmen Project feat. Calum Scott,Rain In Ibiza,Virgin Records,9,28,40
+29,32,The Ironix & Nullzweizwei,Coachella,Between Worlds,6,24,32
+30,37,Jax Jones & MNEK,Where Did You Go?,Polydor,15,27,37
+31,30,Jack Harlow,First Class,Atlantic,13,2,30
+32,35,Ed Sheeran,Bad Habits,Atlantic,54,1,35
+33,39,Tom Odell,Another Love,SME - Columbia,126,11,39
+34,NA,Drake feat. 21 Savage,Jimmy Cooks,Ovo,1,34,0
+35,34,Joji,Glimpse Of Us,88rising Music,3,31,34
+36,46,Purple Disco Machine + Sophie And The Giants,In The Dark,SME - Columbia,21,12,46
+37,38,Shouse,Love Tonight,Hell Beach,55,4,38
+38,44,Alvaro Soler / Ray Dalton,Manila,SME - Epic,22,23,44
+39,51,Imagine Dragons x JID,Enemy,Interscope,36,4,51
+40,41,Gayle,abcdefu,Atlantic,34,1,41
+41,48,Elley Duhé,Middle Of The Night,SME - RCA,30,31,48
+42,43,Civo,Weg von mir,Good Kid Records/VENTURA Records,23,4,43
+43,55,Jason Derulo,Acapulco,Atlantic,41,18,55
+44,50,The Kid Laroi / Justin Bieber,Stay,SME - Columbia,52,1,50
+45,54,Acraze feat. Cherish,Do It To It,Thrive Music/Virgin Music,36,3,54
+46,NA,Dardan x Ricky Rich,On Fire,Hypnotize Entertainment,1,46,0
+47,52,Malik Harris,Rockstars,Better Now Records,14,8,52
+48,47,ClockClock,Sorry,Wefor,15,18,47
+49,56,Pashanim,Sommergewitter,Urban,53,1,56
+50,57,Nathan Evans,Wellerman,Polydor,76,1,57
+51,60,Endzone / TM,61 Grad,2Live Entertainment,33,25,60
+52,58,Montez,Auf & ab,Universal Domestic Vertigo,49,1,58
+53,NA,Drake,Massive,Ovo,1,53,0
+54,NA,Summer Cem,Ratchet,Banger Musik,2,48,0
+55,14,Azet & Zuna,KMN,KMN Gang,2,14,14
+56,36,HoodBlaq,Barrio,SME - Columbia / BE.ELA.QU GmbH,2,36,36
+57,74,OneRepublic,I Ain't Worried,Interscope,3,57,74
+58,59,Jaymes Young,Infinity,Atlantic,38,11,59
+59,67,Tate McRae,She's All I Wanna Be,SME - RCA,19,50,67
+60,64,RAF Camora feat. Bonez MC,Blaues Licht,Indipendenza,49,1,64
+61,63,Lizzo,About Damn Time,Atlantic,9,34,63
+62,78,Nicky Youre & Dazy,Sunroof,SME - Columbia,3,62,78
+63,68,Calvin Harris & Dua Lipa,One Kiss,SME - Sony Music,46,1,68
+64,69,Luude feat. Colin Hay,Down Under,Sweat It Out,25,9,69
+65,33,Montez,Wenn ich du wäre,Universal Domestic Vertigo,2,33,33
+66,72,Måneskin,Supermodel,SME - RCA,8,49,72
+67,17,Luciano [DE],Push It,Urban,2,17,17
+68,49,Cro feat. Claudia Valentina,High,Urban,3,24,49
+69,NA,Pajel,Blockstar,Epic / DOPE,1,69,0
+70,73,The Weeknd,Save Your Tears,Republic Records,76,5,73
+71,42,Beyoncé,Break My Soul,SME - Columbia,2,42,42
+72,62,Rammstein,Dicke Titten,Rammstein,7,19,62
+73,66,Shawn Mendes,When You're Gone,Island,14,37,66
+74,71,T-Low,Crashen,Spinnup,30,27,71
+75,70,Lil Nas X,Thats What I Want,SME - Columbia,41,11,70
+76,53,Farid Bang & Capital Bra x Sanna,Beretta,Banger Musik,5,10,53
+77,NA,Chapo102 x Luna,Immer nur du,Jinx Music,1,77,0
+78,75,Glockenbach x ClockClock,Brooklyn,Wefor,27,26,75
+79,83,Ikke Hüftgold,Ich schwanke noch,Summerfield Records,3,79,83
+80,NA,Alvaro Soler x Topic,Solo para ti,Airforce1,1,80,0
+81,92,Nathan Dawe feat. Ella Henderson,21 Reasons,Atlantic,4,66,92
+82,NA,Mia Julia / Lorenz Büffel / Malle Anja,Der Zug hat keine Bremse,Electrola,1,82,0
+83,85,Pajel,10von10,SME - Epic / DOPE,46,2,85
+84,84,Lady Gaga,Hold My Hand,Interscope,7,79,84
+85,81,Shouse,Won't Forget You,Hell Beach,16,36,81
+86,NA,1986zig,Kopf aus,Good Kid Records/VENTURA Records,22,3,0
+87,61,Charlie Puth & Jung Kook,Left And Right,Atlantic,2,61,61
+88,86,The Weeknd,Blinding Lights,Republic Records,135,1,86
+89,NA,Felix Jaehn feat. Zoe Wees,Do It Better,Virgin Records,4,72,0
+90,NA,"1019 feat. Lucio101, Nizi19, Omar101, Karamel19",Million,SME - Columbia / 1019 Records,1,90,0
+91,96,OneRepublic,Sunshine,Interscope,12,63,96
+92,97,Sido,Mit Dir,Urban,33,3,97
+93,90,Macklemore & Ryan Lewis feat. Ray Dalton,Can't Hold Us,Macklemore,104,2,90
+94,NA,Die Flippers,Wir sagen danke schön,SME - Sony Music,1,94,0
+95,NA,Monet192 feat. Badchieff,Lauf über Wasser,Warner Music Germany,1,95,0
+96,NA,Tiësto & Charli XCX,Hot In It,Atlantic,1,96,0
+97,82,Olivia Rodrigo,Good 4 U,Olivia Rodrigo,60,1,82
+98,NA,Topic x A7S,Kernkraft 400 (A Better Day),Virgin Records,1,98,0
+99,NA,Cheriimoya & Sierra Kidd,"Living Life, In The Night",Cheriimoya,1,99,0
+100,NA,"Capo feat. Farid Bang, Capital Bra & Haftbefehl",Nachtschicht,Capo Distribution,1,100,0
